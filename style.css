@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: oklab(95.122% 0.00281 -0.00203);
+    background-color: oklab(98.956% -0.00203 -0.00074);
 }
 
 header {
-    background-color: #4b2811;
-    color: white;
+    background-color: hsl(107, 28%, 19%);
+    color: rgb(249, 252, 252);
     padding: 20px;
     text-align: center;
 }
@@ -30,10 +30,10 @@ header {
 }
 
 .dish-box {
-    background-color: #fff;
+    background-color: #f9fdfc;
     padding: 15px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #2b3101;
    
 }
 
@@ -47,7 +47,7 @@ footer {
 
 .welcome-page {
     min-height: 100vh;
-    background: linear-gradient(135deg, #2e1309, #633d23);
+    background: linear-gradient(135deg, hsl(141, 67%, 11%), #633d23);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,15 +56,15 @@ footer {
 }
 
 .welcome-content {
-    background: rgb(253, 219, 219);
+    background: rgb(247, 251, 248);
     padding: 60px 80px;
     border-radius: 20px;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 40px rgba(16, 103, 8, 0.2);
 }
 
 .welcome-content h1 {
     font-size: 3cap;
-    color: #4a190c;
+    color: #060605;
     margin-bottom: 15px;
 }
 
@@ -76,7 +76,7 @@ footer {
 
 .btn {
     display: inline-block;
-    background: #411b0d;
+    background: #31612d;
     color: white;
     padding: 15px 40px;
     border-radius: 50px;
@@ -120,7 +120,7 @@ footer {
 }
 
 .btn-ingredients {
-    background: #ff6b35;
+    background: #2d6836;
     color: white;
     padding: 8px 18px;
     border-radius: 20px;
@@ -131,7 +131,7 @@ footer {
 }
 
 .btn-cook {
-    background: #4a2c0a;
+    background: #063301;
     color: white;
     padding: 8px 18px;
     border-radius: 20px;
@@ -154,7 +154,7 @@ footer {
 }
 
 .cooking-card h3 {
-    color: #11090f;
+    color: #fcfbfc;
     margin-bottom: 15px;
     font-size: 1.2rem;
 }
@@ -162,8 +162,40 @@ footer {
 .cooking-card ul {
     padding-left: 20px;
     line-height: 2.2;
-    color: #0c0504;
+    color: #f1ecec;
     font-size: 1.1rem;
 }
 
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    padding: 20px;
+}
+
+.nav-btn {
+    text-decoration: none; 
+    background-color: #3e5a3c; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px; 
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.nav-btn:hover {
+    background-color: #5a7d57; 
+    cursor: pointer;
+}
+
+
+.active-soup, .active-dessert {
+    background-color: #5a7d57; 
+    border-bottom: 3px solid white; 
+    font-weight: bold;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
