@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: oklab(95.122% 0.00281 -0.00203);
+}
+
+header {
+    background-color: #4b2811;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.hero {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.dishes {
+    display: block;
+}
+
+.dish-box {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+   
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8em;
+    color: #777;
+}
+
+
+.welcome-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2e1309, #633d23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.welcome-content {
+    background: rgb(253, 219, 219);
+    padding: 60px 80px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+.welcome-content h1 {
+    font-size: 3cap;
+    color: #4a190c;
+    margin-bottom: 15px;
+}
+
+.welcome-content p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #411b0d;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.btn:hover {
+    background: #e55a25;
+    transform: scale(1.05);
+}
+
+.ingredients-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 0 auto 30px auto;
+}
+
+.ingredients-card h3 {
+    color: #4a2c0a;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.ingredients-card ul {
+    padding-left: 20px;
+    line-height: 2.2;
+    color: #444;
+    font-size: 1.1rem;
+}
+
+.dish-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.btn-ingredients {
+    background: #ff6b35;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    flex: 1;
+    text-align: center;
+}
+
+.btn-cook {
+    background: #4a2c0a;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    flex: 1;
+    text-align: center;
+}
+
+.btn-ingredients:hover { background: #e55a25; }
+.btn-cook:hover { background: #8b5e3c; }
+
+.cooking-card {
+    background: rgb(249, 216, 216);
+    border-radius: 15px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 0 auto 30px auto;
+}
+
+.cooking-card h3 {
+    color: #11090f;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.cooking-card ul {
+    padding-left: 20px;
+    line-height: 2.2;
+    color: #0c0504;
+    font-size: 1.1rem;
+}
+
+
