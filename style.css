@@ -18,7 +18,7 @@ header {
 }
 
 .hero {
-    background-color: white;
+    background-color: rgb(251, 246, 246);
     padding: 40px;
     text-align: center;
     border: 1px solid #ddd;
@@ -145,7 +145,7 @@ footer {
 .btn-cook:hover { background: #8b5e3c; }
 
 .cooking-card {
-    background: rgb(249, 216, 216);
+    background: rgb(19, 53, 27);
     border-radius: 15px;
     padding: 30px 40px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -198,4 +198,15 @@ footer {
 img {
     max-width: 100%;
     height: auto;
+}
+
+
+@media (max-width: 600px) {
+    .welcome-content {
+        padding: 40px 20px; 
+    }
+
+    .welcome-content h1 {
+        font-size: 1.8rem; 
+    }
 }
